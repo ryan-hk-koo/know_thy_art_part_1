@@ -15,6 +15,7 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 # Dataset
 - Collected 3,600 data entries (images, artwork information) for each of the 15 art styles from [WikiArt](https://www.wikiart.org/)
 <br>
+
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/ee81c065-d628-427a-9194-61da9d5cfda4)
 
 <br>
