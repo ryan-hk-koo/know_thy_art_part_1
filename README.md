@@ -43,10 +43,13 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e59c1fb8-cc7d-44f4-9f20-d68eedd48566)
 - Initial set of 25,055 images reduced to 17,924 images after preprocessing
 
-# Crop Painting Using Object Detection 
+# Automatic Painting Extraction with Object Detection
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/25891fee-b743-4323-85ad-297079c6a492)
-- Used YOLOv8m for painting detection in a photo or an image
-- Trained the model with 560 training samples and 140 validation samples
-- Achieved an average precision of 0.994 
+- Implemented an object detection system tailored for paintings using YOLOv8m
+  - Defined 'Painting' as the sole detection class
+  - Model was trained on 560 images and validated on 140 images
+  - Attained an average precision of 0.994
+- Upon image upload by a user, our system identifies and isolates the artwork, excluding any extraneous backgrounds or frames
+- This ensures that only the pure essence of the artwork is considered, optimizing the subsequent style classification process and minimizing potential biases from external elements (i.e. backgrounds and frames)
 
 
