@@ -1,6 +1,8 @@
 # Know Thy Art Part One 
 Group Project for Machine Learning Bootcamp
 
+<br>                                
+
 # Purpose 
 
 In a world where art appreciation often remains passive and surface-level for many, our project aims to transform and deepen users' engagement with art. We've recognized that art isn't just about observation, but about connection, immersion, and personal resonance. With this understanding, we've crafted a suite of tools and services designed to illuminate, engage, and inspire :
