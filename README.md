@@ -16,9 +16,10 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 - Collected 3,600 data entries (images, artwork information) for each of the 15 art styles from [WikiArt](https://www.wikiart.org/)
 <br>
 
-![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e3ceed2c-564e-480f-8973-98f746347903)
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e0ed6a6f-8b74-4f72-80e4-f8fd208e9cbe)
 
-**Selection Criteria for Art Styles**:
+
+**Selection Criteria for Art Styles** :
 1. Prioritized based on data volume, assuming a larger dataset leads to better model training
 2. Chose one among similar styles (e.g., selected Impressionism over Post-Impressionism)
 3. Excluded styles with a limited number of paintings, such as Art Nouveau and Neoclassicism
