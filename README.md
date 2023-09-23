@@ -41,5 +41,12 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 
 # Data Preprocessing Result 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e59c1fb8-cc7d-44f4-9f20-d68eedd48566)
-- Initial set of 25,055 images reduced to 17,924 images after preprocessing 
+- Initial set of 25,055 images reduced to 17,924 images after preprocessing
+
+# Crop Painting Using Object Detection 
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/25891fee-b743-4323-85ad-297079c6a492)
+- Used YOLOv8m for painting detection in a photo or an image
+- Trained the model with 560 training samples and 140 validation samples
+- Achieved an average precision of 0.994 
+
 
