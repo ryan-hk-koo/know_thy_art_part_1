@@ -1,4 +1,5 @@
 # know_thy_art_part_1
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/18a9c368-553a-4628-8363-3120e512790e)
 
 # Purpose 
 
