@@ -13,7 +13,7 @@ In a world where art appreciation often remains passive and surface-level for ma
 With these services, we're not just showcasing art; we're crafting an enriched, personalized, and deeply engaging art experience for everyone
 
 # Dataset
-- Collected 3,600 data entries (images, artwork information) for each of the 15 art styles from [WikiArt](https://www.wikiart.org/)
+- Collected approximately 3,600 data entries (images, artwork information) for each of the 15 art styles from [WikiArt](https://www.wikiart.org/)
 <br>
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e0ed6a6f-8b74-4f72-80e4-f8fd208e9cbe)
@@ -27,3 +27,13 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 
 **7 Art Styles Chosen For Classification** : 
 - Abstract Expressionism, Baroque, Cubism, Impressionism, Primitivism, Rococo, Surrealism
+
+# Data Preprocessing
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/44fb7b34-42d1-40a8-9b5c-33909f3616b7)
+- Excluded multi-style paintings, sketches, sculptures, illustrations, as well as black and white or non-rectangular paintings
+- Cropped out frames and eliminated blank spaces within images
+
+# Data Preprocessing Result 
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e59c1fb8-cc7d-44f4-9f20-d68eedd48566)
+- Initial set of 25,055 images reduced to 17,924 images after preprocessing 
+
