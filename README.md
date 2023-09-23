@@ -26,4 +26,4 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 4. Of the remaining 12 styles, picked the 7 that demonstrated the highest model classification accuracy
 
 **Seven Styles Chosen For Classification** : 
-- Baroque, Rococo, Impressionism, Primitivism, Cubism, Surrealism, Abstract Expressionism
+- Abstract Expressionism, Baroque, Cubism, Impressionism, Primitivism, Rococo, Surrealism
