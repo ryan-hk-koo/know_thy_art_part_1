@@ -1,4 +1,4 @@
-# know_thy_art_part_1
+# Know Thy Art Part One 
 Group Project for Machine Learning Bootcamp
 
 # Purpose 
