@@ -16,9 +16,7 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 - Collected 3,600 data entries (images, artwork information) for each of the 15 art styles from [WikiArt](https://www.wikiart.org/)
 <br>
 
-![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/3a11f64d-dac4-4b2d-88df-e54ec31320df)
-
-<br>
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e3ceed2c-564e-480f-8973-98f746347903)
 
 **Selection Criteria for Art Styles**:
 1. Prioritized based on data volume, assuming a larger dataset leads to better model training
