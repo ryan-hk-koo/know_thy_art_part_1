@@ -57,12 +57,17 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 - This ensures that only the pure essence of the artwork is considered, optimizing the subsequent style classification process and minimizing potential biases from external elements (i.e. backgrounds and frames)
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/539a9bda-27cc-4ee9-84ca-baf04b6567ee)
-- As the third example shows, even trained the model with pure painting images so that no cropping occurs in cases like this
-
+- As demonstrated in the third example, the model was also trained on standalone paintings, ensuring full images aren't cropped when they depict artwork alone
 <br>
 
 # CNN Model Selection 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/b9c596cb-4c3e-48e0-b956-996c0433d1d1)
 
+- For CNN model selection, we used 500 sample data points for each art style:
+  - 400 for training
+  - 50 for validation
+  - 50 for testing.
+- A total of 18 models were tested, as outlined in the table above
+- ResNetRS50 achieved the highest test accuracy with 65.83%
 
 
