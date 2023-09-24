@@ -3,7 +3,6 @@
 <br>
 
 - Streamlit Demo on Youtube
-<\n>
 
 [![Streamlit Demo](http://img.youtube.com/vi/r_SdumnMuB8/0.jpg)](http://www.youtube.com/watch?v=r_SdumnMuB8 "Streamlit Demo")
 
