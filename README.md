@@ -71,8 +71,11 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 - ResNetRS50 achieved the highest test accuracy with 65.83%, hence ResNetRS50 was selected as the classification model 
 
 <br>
+
 # Model Fine Tuning 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/28eb7c02-17cb-4a67-82fd-addfde6d3891)
 - Selected a dense layer with 10,240 units by iteratively doubling its size until there was no further increase in accuracy
+
 <br>
+
 # Model Results 
