@@ -1,6 +1,8 @@
 # Know Thy Art Part One 
 Group Project for Machine Learning Bootcamp
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r_SdumnMuB8?si=tE_fgkflQFasdQrx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <br>                                
 
 # Purpose 
