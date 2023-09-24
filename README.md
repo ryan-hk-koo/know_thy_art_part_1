@@ -1,5 +1,4 @@
 # Know Thy Art Part One 
-Group Project for Machine Learning Bootcamp
 
 <br>
 
