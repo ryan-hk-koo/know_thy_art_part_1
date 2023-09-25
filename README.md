@@ -99,15 +99,19 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 - Using the above approach, we first extract the RGB values of the dominant color from the input image
   - We then match it to the closest color name among the 138 CSS3 colors based on these RGB values
   - Once identified, we determine which of the 41 groups the color belongs to and display the images from that group
-- Example : 
+- Example :
+
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/163c71d6-5649-421a-bf7b-27a00b26e94a)
 
 <br>
 
 # Art Recommender by Drawing Style 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/240b7c04-4698-4ea6-8432-a657defc9d5b)
+<br>
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/40df1d6b-8d4d-4665-a7e5-2fdc52ba6f2e)
+<br>
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/d06e8f0b-7551-4174-97fb-4ac861fb4bb8)
+<br>
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e6a16ac5-9cc2-466f-84d3-8eccbb0173ce)
 
 # Conclusion 
