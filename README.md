@@ -128,7 +128,7 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 <br>
 
 # Artwork MBTI Predictor
-- The correlation between art style preference and MBTI was sourced from [this website](https://personalitylist.com/category/generic/visual-art-genres/)
+- The correlation between art style preference and MBTI is sourced from [this website](https://personalitylist.com/category/generic/visual-art-genres/)
 
 <br>
 
