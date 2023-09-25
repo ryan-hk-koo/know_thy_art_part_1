@@ -123,8 +123,12 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 # Neural Style Transfer
 - The code is sourced from [this article](https://towardsdatascience.com/python-for-art-fast-neural-style-transfer-using-tensorflow-2-d5e7662061be) on Towards Data Science
 
+<br>
+
 # Artwork MBTI Predictor
 - The correlation between art style preference and MBTI was sourced from [this website](https://personalitylist.com/category/generic/visual-art-genres/)
+
+<br>
 
 # Conclusion & Reflections
 - Our model successfully classified seven distinct art styles with an accuracy of 84%, underscoring the discernible differences in these styles that a convolutional neural network can pinpoint and categorize
