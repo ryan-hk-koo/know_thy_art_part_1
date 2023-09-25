@@ -1,4 +1,4 @@
-![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/dfd2f79b-c495-4818-8bda-de4df0629776)# Know Thy Art Part One 
+# Know Thy Art Part One 
 
 <br>
 
