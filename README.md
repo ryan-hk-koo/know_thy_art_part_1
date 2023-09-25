@@ -120,6 +120,8 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e6a16ac5-9cc2-466f-84d3-8eccbb0173ce)
 
+<br>
+
 # Neural Style Transfer
 - The code is sourced from [this article](https://towardsdatascience.com/python-for-art-fast-neural-style-transfer-using-tensorflow-2-d5e7662061be) on Towards Data Science
 
