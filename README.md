@@ -83,3 +83,39 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 <br>
 
 # Model Results 
+
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/80d1302b-67ed-47e7-bf31-f8b067868fef)
+- ResnetRS50 without data augmentation outperformed its counterpart that utilized data augmentation, registering a 4% increase in accuracy with test data
+- The model without data augmentation consistently demonstrated greater confidence in its top-1 accuracy predictions
+- Hence, selected the ResnetRS50 without data augmentation as the primary model for the art style classification service
+
+<br>
+
+# Art Recommender by RGB colors 
+- Utilized ColorThief library to extract the RGB values of the dominant color and color palette from the image
+- Employed the WebColors library to identify the name of the dominant color, or its closest match, from the 138 CSS3 colors based on its RGB values
+- Grouped 138 colors from WebColors library into 41 color groups based on color frequency and similarity
+  - 3 Orange, 3 White, 5 Blue, 5 Yellow, 3 Red, 4 Green, 5 Brown, 2 Purple, 9 Gray, 1 Pink, 1 Black Groups
+- Using the above approach, we first extract the RGB values of the dominant color from the input image
+  - We then match it to the closest color name among the 138 CSS3 colors based on these RGB values
+  - Once identified, we determine which of the 41 groups the color belongs to and display the images from that group
+- Example : 
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/163c71d6-5649-421a-bf7b-27a00b26e94a)
+
+<br>
+
+# Art Recommender by Drawing Style 
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/240b7c04-4698-4ea6-8432-a657defc9d5b)
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/40df1d6b-8d4d-4665-a7e5-2fdc52ba6f2e)
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/d06e8f0b-7551-4174-97fb-4ac861fb4bb8)
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/e6a16ac5-9cc2-466f-84d3-8eccbb0173ce)
+
+# Conclusion 
+
+
+
+
+
+
+
+
