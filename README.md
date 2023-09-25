@@ -126,7 +126,7 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 # Artwork MBTI Predictor
 - The correlation between art style preference and MBTI was sourced from [this website](https://personalitylist.com/category/generic/visual-art-genres/)
 
-# Conclusion/Thoughts
+# Conclusion & Reflections
 - Our model successfully classified seven distinct art styles with an accuracy of 84%, underscoring the discernible differences in these styles that a convolutional neural network can pinpoint and categorize
 - Interestingly, the model that didn't utilize data augmentation outperformed its augmented counterpart by 4%
   - This suggests that either data augmentation might not be beneficial for classifying art styles, or the specific augmentation techniques we employed weren't optimal
