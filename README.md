@@ -1,4 +1,4 @@
-# Know Thy Art Part One 
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/dfd2f79b-c495-4818-8bda-de4df0629776)# Know Thy Art Part One 
 
 <br>
 
@@ -126,7 +126,15 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 # Artwork MBTI Predictor
 - The correlation between art style preference and MBTI was sourced from [this website](https://personalitylist.com/category/generic/visual-art-genres/)
 
-# Conclusion 
+# Conclusion/Thoughts
+- Our model successfully classified seven distinct art styles with an accuracy of 84%, underscoring the discernible differences in these styles that a convolutional neural network can pinpoint and categorize
+- Interestingly, the model that didn't utilize data augmentation outperformed its augmented counterpart by 4%
+  - This suggests that either data augmentation might not be beneficial for classifying art styles, or the specific augmentation techniques we employed weren't optimal
+- Preprocessing images proved crucial to the model's performance. Initially, without preprocessing, the model's accuracy was only 50%
+- Fine-tuning the preprocessing criteria could further elevate the accuracy of the CNN model
+- Depending on the objectives, future projects on art recommendation by color could consider various methods such as 3D HSV that take into account both brightness and saturation or k-means clustering
+- In finding images with similar drawing styles, there's a need for more objective numerical metrics to compare the performance of the model
+
 
 
 
