@@ -60,7 +60,7 @@ While many often engage with art on a superficial level, our project seeks to tr
 - This ensures that only the actual artwork is considered, optimizing the subsequent style classification process and minimizing potential biases from external elements (i.e. backgrounds and frames)
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/539a9bda-27cc-4ee9-84ca-baf04b6567ee)
-- As demonstrated in the third example, the model was also trained on paintings without any surrounding context. This ensures that full images aren't cropped when they depict artwork alone
+- As demonstrated in the third example, the model was also trained on paintings without any surrounding context. This ensures that full images aren't cropped when they depict artworks alone
 <br>
 
 # CNN Model Selection 
