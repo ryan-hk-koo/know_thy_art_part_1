@@ -99,7 +99,7 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
   - 3 Orange, 3 White, 5 Blue, 5 Yellow, 3 Red, 4 Green, 5 Brown, 2 Purple, 9 Gray, 1 Pink, 1 Black Groups
 - Using the above approach, we first extract the RGB values of the dominant color from the input image
   - We then match it to the closest color name among the 138 CSS3 colors based on the RGB values and Euclidean distance
-  - Once identified, we determine which of the 41 groups the color belongs to and display the images from that group
+  - Once the closest color name is identified, we determine which of the 41 groups the color belongs to and display the images from that group
 - Example:
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/163c71d6-5649-421a-bf7b-27a00b26e94a)
