@@ -9,15 +9,13 @@
                           
 # Purpose 
 
-In a world where art appreciation often remains passive and surface-level for many, our project aims to transform and deepen users' engagement with art. We've recognized that art isn't just about observation, but about connection, immersion, and personal resonance. With this understanding, we've crafted a suite of tools and services designed to illuminate, engage, and inspire :
+While many often engage with art on a superficial level, our project seeks to transform and deepen users' engagement with art. To achieve this, we have crafted the following suite of services:
 
 - **Know Thy Art**:
-  -  **Western Art Style Insight Tool**: Leveraged ResnetRS50 model to create an art style classifier. This tool serves not only as an identifier but also as an enlightener, guiding users on the nuances of each art style. In doing so, it elevates daily encounters with art from passive observation to a profound understanding
-  -  **Artwork Recommendation Engine**: Developed artwork recommendation service based on RGB colors and style. With this, we allow users to deepen their understanding of art through exploring more related artworks
--  **Neural Style Transfer**: Beyond just appreciation, this service allow users to craft their own masterpieces by blending distinct art styles. This goes beyond conventional tools — it's a personal canvas and an invitation to partake in the art creation journey, kindling a newfound passion and personal connection to the realm of art
-- **Artwork MBTI Predictor**: A confluence of personality and art, this service is our endeavor to align art preferences with personality types, fostering a more intuitive and personal connection between viewers and artworks
-
-With these services, we're not just showcasing art; we're crafting an enriched, personalized, and deeply engaging art experience for everyone
+  -  **Western Art Style Insight Tool**: Leveraged ResnetRS50 model to create an art style classifier. This tool not only identifies art styles but also educates users on the nuances of each style. In doing so, it elevates daily encounters with art from passive observation to a profound understanding
+  -  **Artwork Recommendation Engine**: Developed artwork recommendation services based on RGB colors and style. With this, we allow users to deepen their understanding of art through exploring more related artworks
+-  **Neural Style Transfer**: This tool lets users create their own unique artworks by blending different art styles. It offers a new way to interact with and create art, promoting a deeper personal connection
+- **Artwork MBTI Predictor**: This tool matches art preferences with personality types, helping users find artworks that resonate with their personality and fostering a more intuitive and personal connection between viewers and artworks
 
 <br>
 
@@ -58,11 +56,11 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
   - Defined 'Painting' as the sole detection class
   - Model was trained on 560 images and validated on 140 images
   - Attained an average precision of 0.994
-- Upon image upload by a user, our system identifies and isolates the artwork, excluding any extraneous backgrounds or frames
-- This ensures that only the pure essence of the artwork is considered, optimizing the subsequent style classification process and minimizing potential biases from external elements (i.e. backgrounds and frames)
+- When a user uploads an image, our system identifies and isolates the artwork, excluding any extraneous backgrounds or frames
+- This ensures that only the actual artwork is considered, optimizing the subsequent style classification process and minimizing potential biases from external elements (i.e. backgrounds and frames)
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/539a9bda-27cc-4ee9-84ca-baf04b6567ee)
-- As demonstrated in the third example, the model was also trained on standalone paintings, ensuring full images aren't cropped when they depict artwork alone
+- As demonstrated in the third example, the model was also trained on paintings without any surrounding context. This ensures that full images aren't cropped when they depict artwork alone
 <br>
 
 # CNN Model Selection 
@@ -93,13 +91,17 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 <br>
 
 # Art Recommender by RGB colors 
-- Utilized ColorThief library to extract the RGB values of the dominant color and color palette from the image
-- Employed the WebColors library to identify the name of the dominant color, or its closest match, from the 138 CSS3 colors based on its RGB values
-- Grouped 138 colors from WebColors library into 41 color groups based on color frequency and similarity
+
+**Preparation**:
+- Utilized ColorThief library to extract the RGB values of the dominant colors and color palettes from the image dataset
+- Employed the WebColors library to identify the names of the dominant colors, or their closest matches, from the 138 CSS3 colors based on its RGB values
+- Grouped 138 colors from WebColors library into 41 color groups based on color frequencies and similarities
   - 3 Orange, 3 White, 5 Blue, 5 Yellow, 3 Red, 4 Green, 5 Brown, 2 Purple, 9 Gray, 1 Pink, 1 Black Groups
-- Using the above approach, we first extract the RGB values of the dominant color from the input image
-  - We then match it to the closest color name among the 138 CSS3 colors based on the RGB values and Euclidean distance
-  - Once the closest color name is identified, we determine which of the 41 groups the color belongs to and display the images from that group
+ 
+**User Experience**:
+- When a user inputs an image, the system first extracts the RGB values of the dominant color
+- The RGB values are then matched to the closest color name among the 138 CSS3 colors, based on Euclidean distance
+- Once the closest color name is identified, the system determines which of the 41 groups the color belongs to and displays the images from that group
 - Example:
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/163c71d6-5649-421a-bf7b-27a00b26e94a)
