@@ -98,7 +98,7 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 - Grouped 138 colors from WebColors library into 41 color groups based on color frequency and similarity
   - 3 Orange, 3 White, 5 Blue, 5 Yellow, 3 Red, 4 Green, 5 Brown, 2 Purple, 9 Gray, 1 Pink, 1 Black Groups
 - Using the above approach, we first extract the RGB values of the dominant color from the input image
-  - We then match it to the closest color name among the 138 CSS3 colors based on these RGB values
+  - We then match it to the closest color name among the 138 CSS3 colors based on the RGB values and Euclidean distance
   - Once identified, we determine which of the 41 groups the color belongs to and display the images from that group
 - Example:
 
