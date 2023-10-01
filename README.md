@@ -137,12 +137,12 @@ While many often engage with art on a superficial level, our project seeks to tr
 
 # Conclusion & Reflections
 - Our model successfully classified seven distinct art styles with an accuracy of 84%, underscoring the discernible differences in these styles that a convolutional neural network can pinpoint and categorize
-- Interestingly, the model that didn't utilize data augmentation outperformed its augmented counterpart by 4%
-  - This suggests that either data augmentation might not be beneficial for classifying art styles, or the specific augmentation techniques we employed weren't optimal
+- Interestingly, the model that did not utilize data augmentation outperformed its augmented counterpart by 4%
+  - This suggests that either data augmentation might not be beneficial for classifying art styles, or the specific augmentation techniques we employed were not optimal
 - Preprocessing images proved crucial to the model's performance. Initially, without preprocessing, the model's accuracy was only 50%
 - Fine-tuning the preprocessing criteria could further elevate the accuracy of the CNN model
 - Depending on the objectives, future projects on art recommendation by color could consider various methods such as 3D HSV that take into account both brightness and saturation or k-means clustering
-- In finding images with similar drawing styles, there's a need for more objective numerical metrics to compare the performances of the models
+- In finding images with similar drawing styles, there is a need for more objective numerical metrics to compare the performances of the models
 
 
 
