@@ -140,7 +140,7 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 - Preprocessing images proved crucial to the model's performance. Initially, without preprocessing, the model's accuracy was only 50%
 - Fine-tuning the preprocessing criteria could further elevate the accuracy of the CNN model
 - Depending on the objectives, future projects on art recommendation by color could consider various methods such as 3D HSV that take into account both brightness and saturation or k-means clustering
-- In finding images with similar drawing styles, there's a need for more objective numerical metrics to compare the performance of the model
+- In finding images with similar drawing styles, there's a need for more objective numerical metrics to compare the performances of the models
 
 
 
