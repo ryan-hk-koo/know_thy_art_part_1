@@ -107,7 +107,7 @@ With these services, we're not just showcasing art; we're crafting an enriched, 
 <br>
 
 # Art Recommender by Drawing Style 
-![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/240b7c04-4698-4ea6-8432-a657defc9d5b)
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_1/assets/143580734/6c6d8f5f-8871-470c-b8ba-c1157bea65f1)
 
 <br>
 
