@@ -32,7 +32,7 @@ While many often engage with art on a superficial level, our project seeks to tr
 3. Excluded styles with a limited number of paintings, such as Art Nouveau and Neoclassicism
 4. Of the remaining 12 styles, picked the 7 that demonstrated the highest model classification accuracy
 
-**7 Art Styles Chosen For Classification** : 
+**7 Art Styles Chosen for Classification** : 
 - Abstract Expressionism, Baroque, Cubism, Impressionism, Primitivism, Rococo, Surrealism
 
 <br>
